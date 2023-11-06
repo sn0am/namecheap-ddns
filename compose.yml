@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  namecheapDDNS:
+    image: sn0am/namecheapDDNS
+    container_name: namecheapDDNS
+    environment:
+    -  host=$host
+    -  domain=$domain
+    -  ddns_password=$ddns_password
+    -  url_to_check_public_ip=$url_to_check_public_ip
+    -  ddns_update_interval=$ddns_update_interval
+    restart: unless-stopped
