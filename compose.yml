@@ -1,9 +1,9 @@
 version: "3"
 
 services:
-  namecheapDDNS:
-    image: sn0am/namecheapDDNS
-    container_name: namecheapDDNS
+  namecheap-ddns:
+    image: sn0am/namecheap-ddns
+    container_name: namecheap-ddns
     environment:
     -  host=$host
     -  domain=$domain
