@@ -6,4 +6,4 @@ Afterwards do:
 docker-compose up -d
 
 # ARM version is available as well.
-modify the compose file to replace the image name as: namecheap-ddns_arm64
+modify the compose file to replace the image name as: sn0am/namecheap-ddns_arm64
